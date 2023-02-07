@@ -1,0 +1,201 @@
+* {
+    font-family: 'Roboto' sans-serif;
+}
+nav {
+    height: 51px;
+    background-color: #212121;
+}
+
+header {
+    position: relative;}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    color: #fff;
+} 
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+.subheader {
+    position: absolute;
+    width: 100%;
+    height: 84px;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.subheader .subheader_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+
+.subheader .subheader_official {
+    margin-top: 6px;
+    opacity: 0.5;
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.subheader .subheader_call {
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 19px;
+    text-align: right;
+    color: #fff;
+} 
+
+.subheader .subheader_phone {
+    display: block;
+    margin-top: 8px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: right;
+    line-height: 12px;
+} 
+
+.subheader .subheader_btn {
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0px -3px 0 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.promo {
+    min-height: 800px;
+    background: url(../img/bg1.jpg) center center/cover no-repeat;
+    padding: 151px 0 135px 0;
+} 
+
+.promo .promo_header {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff; 
+    font-size: 60px;
+    line-height: 60px;
+    margin: 0;
+    text-align: center;
+} 
+
+.promo .promo_subheader {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff; 
+    font-size: 36px; 
+    line-height: 36px;
+    margin: 0;
+    margin-top: 22px;
+    text-align: center;
+} 
+
+.promo .promo_descr {
+    margin-top: 23px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+  }
+
+.promo .promo_btn {
+    display: block;
+    margin: 118px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: inset 0px -4px 0  rgba(0, 0, 0, 0.12);
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff); 
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.label {
+    width: 112px;
+    height: 24px;
+    margin: 0 auto;
+    padding: 5px 12px;
+    background-color: #000;
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    }
+
+.title {
+    margin-bottom: 0;
+    margin-top: 38px;
+    font-size: 38px;
+    font-weight: 700;        
+    text-align: center;
+    text-transform: uppercase;
+    color: #222; 
+    }
+
+.advantage {
+        padding: 71px 0 65px 0;
+    } 
+
+.advantage_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}    
+
+.advantage .advantage_item .advantage_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+    } 
+
+.advantage .advantage_item .advantage_descr {
+    width: 341px;
+}
+
+.advantage .advantage_item .advantage_descr .advantage_subtitle {
+    line-height: 21px;
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.advantage .advantage_item .advantage_descr .advantage_text {
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+
